@@ -1,6 +1,6 @@
 // [Template no Kotlin Playground](https://pl.kotl.in/WcteahpyN)
 
-enum class Nivel { BASICO, INTERMEDIARIO, DIFICIL, AVANCADO }
+enum class Level { BASIC, INTERMEDIATE, ADVANCED }
 
 class Usuario
 
