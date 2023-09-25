@@ -21,7 +21,7 @@ data class Formation(val name: String, var schoolSubjects: List<SchoolSubjects>)
 fun main() {
     // aqui estamos instanciando a class SchoolSubjects 2x 
     val kotlinBasic = SchoolSubjects("Kotlin Basic", Level.BASIC)
-    val kotlinAdvanced = SchoolSubjects("Kotlin Advanced", Level.INTERMEDIATE)
+    val kotlinAdvanced = SchoolSubjects("Kotlin Advanced", Level.ADVANCED)
 
     // aqui uma instânncia da class Formation
     val kotlinFormation = Formation("Kotlin Formation", listOf(kotlinBasic, kotlinAdvanced))
