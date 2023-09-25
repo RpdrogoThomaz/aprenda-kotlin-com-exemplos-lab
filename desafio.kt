@@ -2,11 +2,11 @@
 
 enum class Level { BASIC, INTERMEDIATE, ADVANCED }
 
-class Usuario
+data class Student(val name:String) 
 
-data class ConteudoEducacional(var nome: String, val duracao: Int = 60)
+data class SchoolSubjects(var name: String, val level: Level, val duration: Int = 60)
 
-data class Formacao(val nome: String, var conteudos: List<ConteudoEducacional>) {
+data class Formation(val name: String, var conteudos: List<SchoolSubjects>) {
 
     val inscritos = mutableListOf<Usuario>()
     
